@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practica HTML-CSS</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <div id="encabezado" >
+      <h1>Clase de HTML -- CSS</h1>
+      <h1>Registro de asistencia</h1>
+    </div>
+    <div id="contenido" >
+      <div id="div_nombre" >
+      <label>Nombre(s):</label>
+      <input id="txt_Nombre" type="text">
+    </div>
+  </br>
+  <div id="div_apellidos">
+      <label>Apellidos:</label>
+      <input id="txt_Apellidos" type="text">
+    </div>
+  <!-- </br>
+   <div id="div_correo">
+      <label>Correo:</label>
+      <input id="txt_Correo" type="text">
+    </div> -->
+  </br>
+  <div id="div_Lista_sexo" >
+      <label>Sexo:</label>
+      <select id="Lista_sexo">
+        <option value="" disabled selected>Seleccione uno</option>
+        <option value="Femenino" >Femenino</option>
+        <option value="Masculino" >Masculino</option>
+      </select>
+    </div>
+  </br>
+  <!--  <div id="div_ocupacion">
+      <label>Ocupación:</label>
+      <input id="txt_Ocupacion" type="text">
+    </div>
+  </br>-->
+  <input id="btn_Guardar" type="button" value="Guardar">
+  <input id="btn_Cancelar" type="button" value="Cancelar">
+    </div>
+    <div id="mensajeConfirmacion">
+        <h1>Datos almacenados, Correctamente!!!</h1>
+      </br>
+        <label>Nombre:</label><label id="lbl_nombre"></label></br>
+        <label>Apellidos:</label><label id="lbl_apellidos"></label></br>
+        <label>Sexo:</label><label id="lbl_sexo"></label></br>
+    </div>
+    <div id="mensajeCancelacion">
+  <div>
+    <h1>Accion cancelada!!!</h1>
+  </div>
+</div>
+  </body>
+</html>
