@@ -30,5 +30,4 @@ $('#Lista_sexo').val("");
 $('#txt_Ocupacion').val("");
 }
 
-
 });
